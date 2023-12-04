@@ -10,11 +10,11 @@ I didn't implement the production gateways, like [editor_gateway.clj](src/functi
 
 In a real app, they would interact with the outside world.
 
-For example, `editor_gateway.clj`, would open a terminal in a real code editor.
+For example, [editor_gateway.clj](src/functional_di/gateway/editor_gateway.clj) would open a terminal in a real code editor.
 
 This repo is just to show how to do Dependency Injection in Clojure.
 
-But the unit tests are complete, and pass.
+But the unit tests are complete.
 
 ## Run unit tests
 
