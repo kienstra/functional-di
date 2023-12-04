@@ -2,9 +2,9 @@
 
 An example of Dependency Injection in Clojure, without a DI library.
 
-The [composition root](src/functional_di/composition_root.clj) injects the dependencies.
-
 Here's a [detailed post](https://ryankienstra.com/dependency-injection-in-clojure) on how this works.
+
+The [composition root](src/functional_di/composition_root.clj) injects the dependencies.
 
 I didn't implement the production gateways, like [editor_gateway.clj](src/functional_di/gateway/editor_gateway.clj).
 
