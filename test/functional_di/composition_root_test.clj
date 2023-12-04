@@ -5,11 +5,7 @@
             [functional-di.gateway.stub-os-gateway :refer [->StubOsGateway]]))
 
 (defn gateways []
-  (let [child-process-gateway (->StubChildProcessGateway)
-        editor-gateway        (->StubEditorGateway)
-        fs-gateway            (->StubFsGateway)
-        os-gateway            (->StubOsGateway)]
-    {:child-process-gateway child-process-gateway
-     :editor-gateway editor-gateway
-     :fs-gateway fs-gateway
-     :os-gateway os-gateway}))
+  {:child-process-gateway (->StubChildProcessGateway)
+   :editor-gateway        (->StubEditorGateway)
+   :fs-gateway            (->StubFsGateway)
+   :os-gateway            (->StubOsGateway)})
