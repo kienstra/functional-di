@@ -6,7 +6,11 @@ The [composition root](src/functional_di/composition_root.clj) injects the depen
 
 Here's a [detailed post](https://ryankienstra.com/dependency-injection-in-clojure) on how this works.
 
-The production gateways, like [editor_gateway.clj](src/functional_di/gateway/editor_gateway.clj), don't actually work.
+I didn't implement the production gateways, like [editor_gateway.clj](src/functional_di/gateway/editor_gateway.clj).
+
+In a real app, they would interact with the outside world.
+
+For example, `editor_gateway.clj`, would open a terminal in a real code editor.
 
 This repo is just to show how to do Dependency Injection in Clojure.
 
