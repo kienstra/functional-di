@@ -5,7 +5,7 @@
             [functional-di.gateway.fs-gateway :refer [IFsGateway]]
             [functional-di.composition-root-test :refer [gateways]]))
 
-(deftest job-test
+(deftest make-job-test
   (testing "mkdir is called when directory does not exist"
     (let [mkdir-called? (atom false)]
       ((:job (comp-root (merge

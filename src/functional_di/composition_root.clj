@@ -20,7 +20,7 @@
         os-gateway            (:os-gateway gw)
         build-agent-settings  (->BuildAgentSettings child-process-gateway os-gateway)
         command-decorators    (make-command-decorators editor-gateway)
-        job!                  (make-job build-agent-settings command-decorators editor-gateway fs-gateway)]
+        job!                  (make-job command-decorators build-agent-settings editor-gateway fs-gateway)]
     {:child-process-gateway child-process-gateway
      :editor-gateway        editor-gateway
      :fs-gateway            fs-gateway
