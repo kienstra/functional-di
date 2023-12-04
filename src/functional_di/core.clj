@@ -1,6 +1,5 @@
-(ns functional-di.core)
+(ns functional-di.core
+  (:require [functional-di.composition-root :refer [comp-root gateways]]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main []
+  (:job (comp-root (gateways))))
