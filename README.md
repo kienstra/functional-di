@@ -14,7 +14,7 @@ For example, [editor_gateway.clj](src/functional_di/gateway/editor_gateway.clj) 
 
 This repo is just to show how to do Dependency Injection in Clojure.
 
-But the unit tests are complete.
+But the [unit tests](test/functional_di/) are complete.
 
 ## Run unit tests
 
